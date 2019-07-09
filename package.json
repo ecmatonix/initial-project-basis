@@ -1,0 +1,46 @@
+{
+  "name": "initial-project-basis",
+  "version": "0.0.1",
+  "description": "The basis for the development of projects.",
+  "private": true,
+  "scripts": {
+    "version": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0 && prettier --write CHANGELOG.md && git add CHANGELOG.md",
+    "format": "prettier --write \"**/*.{json,md}\"",
+    "format:check": "prettier --check \"**/*.{json,md}\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run format:check",
+      "commit-msg": "commitlint --edit --config \".commitlintrc.json\""
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ecmatonix/initial-project-basis.git"
+  },
+  "keywords": [
+    "starter-kit",
+    "conventional-commits",
+    "conventioanl-changelog",
+    "commitlint",
+    "prettier",
+    "prettier-check",
+    "husky"
+  ],
+  "author": {
+    "name": "Anton Lykov",
+    "email": "ecmatonix@gmail.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ecmatonix/initial-project-basis/issues"
+  },
+  "homepage": "https://github.com/ecmatonix/initial-project-basis#readme",
+  "devDependencies": {
+    "@commitlint/cli": "^7.6.1",
+    "conventional-changelog-cli": "^2.0.21",
+    "husky": "^1.3.1",
+    "prettier": "1.17.0"
+  }
+}
