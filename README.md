@@ -15,7 +15,7 @@ Then:
 
 Command line:
 
-- `$ npm run format` - format all code in files according to a pattern (`**/*.{json,md}`);
+- `$ npm run format` - format all code in files according to a pattern (`**/*.{json,yml,md}`);
 - `$ npm run format:check` - check whether there is unformatted code in files (`**/*.{json,md}`).
 
 In addition, the code formatting check (`$ npm run format:check`) is performed in the pre-commit hook.
