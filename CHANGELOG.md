@@ -1,3 +1,11 @@
+<a name="0.3.0"></a>
+
+# [0.3.0](https://github.com/ecmatonix/initial-project-basis/compare/v0.2.0...v0.3.0) (2019-07-15)
+
+### Features
+
+- **package.json:** update the "format" script ([11255f9](https://github.com/ecmatonix/initial-project-basis/commit/11255f9))
+
 <a name="0.2.0"></a>
 
 # [0.2.0](https://github.com/ecmatonix/initial-project-basis/compare/v0.1.0...v0.2.0) (2019-07-15)
