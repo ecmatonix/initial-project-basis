@@ -1,6 +1,6 @@
 {
   "name": "initial-project-basis",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "description": "The basis for the development of projects.",
   "private": true,
   "scripts": {
